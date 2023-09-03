@@ -46,7 +46,6 @@ function App() {
     setResult('')
     const response = await converter(inputType, outputType, parseFloat(amount))
     setResult(response.result)
-    console.log(response);
   }
 
   useEffect(() => {
